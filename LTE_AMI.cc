@@ -286,7 +286,7 @@ main (int argc, char *argv[])
         }
         */
     }
-  /*
+  
    // Create HTTP server helper
   //Ipv4Address ServerAddress(ServerInterfaces.GetAddress (Server_Nodes));
   //Ipv4Address BSAddress(BSinterface.GetAddress (0));
@@ -329,7 +329,7 @@ main (int argc, char *argv[])
   httpClient->TraceConnectWithoutContext ("RxMainObject", MakeCallback (&ClientMainObjectReceived));
   httpClient->TraceConnectWithoutContext ("RxEmbeddedObject", MakeCallback (&ClientEmbeddedObjectReceived));
   httpClient->TraceConnectWithoutContext ("Rx", MakeCallback (&ClientRx));
-  */
+  
   //serverApps.Start (MilliSeconds (500));
   //clientApps.Start (MilliSeconds (500));
   lteHelper->EnableTraces ();
